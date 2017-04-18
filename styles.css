@@ -271,7 +271,7 @@ h1.hotlink a {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     header {
         background: #666666;
     }
