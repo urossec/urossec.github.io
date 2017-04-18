@@ -1,14 +1,91 @@
-<!doctype html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+ 
+    <meta charset="utf-8">
+    <title>Mobile First Responsive Navigation</title>
+    <meta name="description" content="CSS only mobile first navigation">
+    <meta name="author" content="Ian Yates">
+ 
+    <!--Mobile specific meta goodness :)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
+    <!--css-->
+    <link rel="stylesheet" href="styles.css">
+ 
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ 
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+
 </head>
+<body id="home">
+ 
+    <div class="wrapper">
+     
+        <header>
+            
+            <div id="banner">
 
-<body>
-<h2 style="text-align:center; margin=0,0,20,20";>Stran je v izdelavavi. Hvala za razumevanje.</h2>
+                <div id="logotip">
 
+                    <img id="logodrustvo" src="images/logo_wide_large.png" alt="logo">
+                
+                </div>
+
+            </div>
+
+            <!-- <h1 class="logo"><a href="">Nav</a></h1> -->
+     
+            <a class="to_nav">Menu</a>
+         
+        </header>
+        
+        <nav id="primary_nav">
+         
+            <ul>
+             
+                <li><a href="">Tenis</a></li>
+             
+                <li><a href="">Odbojka</a></li>
+             
+                <li><a href="">Košarka</a></li>
+             
+                <li><a href="">Nogomet</a></li>
+                
+                <li><a href="">O Društvu</a></li>
+
+                <li class="top"><a href="#home">Top</a></li>
+             
+            </ul>
+ 
+        </nav><!--end primary_nav-->
+
+        <div id = 'hotdiv'>
+
+            <h1 class="hotlink"><a href="http://sddl-tenis.appspot.com">Rezervacija igrišč</a></h1>
+        
+        </div>
+
+        <article>
+         
+            <h2>Obvestilo!</h2> 
+             
+            <p>Stran je v izdelavi, hvala za razumevanje.</p> 
+         
+        </article>
+
+        <footer>
+         
+            <p>Copyright &copy;2017 SD Dragomer - Lukovica</p>
+         
+        </footer>
+     
+    </div><!--end wrapper-->
+     
 </body>
-
 </html>
