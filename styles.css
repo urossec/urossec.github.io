@@ -269,6 +269,14 @@ h1.hotlink a {
     #primary_nav li.top {
         display: none;
     }
+
+    #dogodek {
+        content: url("images/tenis_otvoritveni_turnir_2017_big_2x.png");
+        width: 768px;
+        height: 543px;
+        display: block;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -277,7 +285,17 @@ h1.hotlink a {
     }
 
     #logodrustvo {
-        content: url("images/logo_wide_small.png");
+        content: url("images/logo_wide_small_2x.png");
+        width: 320px;
+        height: 90px;
+    }
+
+    #dogodek {
+        content: url("images/tenis_otvoritveni_turnir_2017_small_2x.png");
+        width: 320px;
+        height: 226px;
+        display: block;
+        margin: auto;
     }
 }
 /*footer*/
